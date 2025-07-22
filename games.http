@@ -1,0 +1,13 @@
+GET https://localhost:17272/games
+###
+GET https://localhost:17272/games/1
+###
+POST https://localhost:17272/games
+Content-Type: application/json
+
+{
+  "name": "Game Three",
+  "genre": "Puzzle",
+  "platform": "Mobile",
+  "releaseDate": "2023-01-01"
+}
