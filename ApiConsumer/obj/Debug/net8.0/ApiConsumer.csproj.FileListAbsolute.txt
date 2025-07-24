@@ -1,0 +1,14 @@
+D:\Testing\test\ApiConsumer\bin\Debug\net8.0\ApiConsumer.exe
+D:\Testing\test\ApiConsumer\bin\Debug\net8.0\ApiConsumer.deps.json
+D:\Testing\test\ApiConsumer\bin\Debug\net8.0\ApiConsumer.runtimeconfig.json
+D:\Testing\test\ApiConsumer\bin\Debug\net8.0\ApiConsumer.dll
+D:\Testing\test\ApiConsumer\bin\Debug\net8.0\ApiConsumer.pdb
+D:\Testing\test\ApiConsumer\obj\Debug\net8.0\ApiConsumer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Testing\test\ApiConsumer\obj\Debug\net8.0\ApiConsumer.AssemblyInfoInputs.cache
+D:\Testing\test\ApiConsumer\obj\Debug\net8.0\ApiConsumer.AssemblyInfo.cs
+D:\Testing\test\ApiConsumer\obj\Debug\net8.0\ApiConsumer.csproj.CoreCompileInputs.cache
+D:\Testing\test\ApiConsumer\obj\Debug\net8.0\ApiConsumer.dll
+D:\Testing\test\ApiConsumer\obj\Debug\net8.0\refint\ApiConsumer.dll
+D:\Testing\test\ApiConsumer\obj\Debug\net8.0\ApiConsumer.pdb
+D:\Testing\test\ApiConsumer\obj\Debug\net8.0\ApiConsumer.genruntimeconfig.cache
+D:\Testing\test\ApiConsumer\obj\Debug\net8.0\ref\ApiConsumer.dll
