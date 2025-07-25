@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flour & More - Premium Homemade Flour</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <i class="fas fa-seedling nav-icon"></i>
+                <span class="brand-text">Flour & More</span>
+            </div>
+            
+            <!-- Desktop Navigation -->
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#products" class="nav-link">Products</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            
+            <!-- Mobile Menu Button -->
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="floating-elements">
+            <div class="floating-circle circle-1"></div>
+            <div class="floating-circle circle-2"></div>
+            <div class="floating-circle circle-3"></div>
+        </div>
+        
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <i class="fas fa-chef-hat"></i>
+                    <span>Handcrafted with Love</span>
+                    <i class="fas fa-heart"></i>
+                </div>
+                
+                <h1 class="hero-title">
+                    Fresh
+                    <span class="hero-highlight">Homemade</span>
+                    Flour
+                </h1>
+                
+                <p class="hero-description">
+                    Premium quality flour ground fresh daily from the finest grains. 
+                    Perfect for all your baking needs, from artisan breads to delicate pastries.
+                </p>
+                
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" data-scroll="#products">Shop Now</button>
+                    <button class="btn btn-secondary" data-scroll="#about">Learn More</button>
+                </div>
+            </div>
+            
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Fresh flour and baking ingredients">
+                <div class="floating-icon floating-icon-1">
+                    <i class="fas fa-sparkles"></i>
+                </div>
+                <div class="floating-icon floating-icon-2">
+                    <i class="fas fa-chef-hat"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Premium Flour Collection</h2>
+                <p>From traditional wheat flour to specialty blends, we offer the finest selection for all your baking adventures.</p>
+            </div>
+            
+            <div class="products-grid">
+                <div class="product-card" data-aos="fade-up">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Organic Whole Wheat Flour">
+                        <span class="product-badge badge-bestseller">Best Seller</span>
+                        <div class="product-overlay">
+                            <button class="btn-icon">
+                                <i class="fas fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-header">
+                            <h3>Organic Whole Wheat Flour</h3>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <span>4.9</span>
+                            </div>
+                        </div>
+                        <p>Stone-ground from organic wheat berries</p>
+                        <div class="product-footer">
+                            <span class="price">$12.99</span>
+                            <button class="btn btn-small">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Artisan Bread Flour">
+                        <span class="product-badge badge-premium">Premium</span>
+                        <div class="product-overlay">
+                            <button class="btn-icon">
+                                <i class="fas fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-header">
+                            <h3>Artisan Bread Flour</h3>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <span>4.8</span>
+                            </div>
+                        </div>
+                        <p>High-protein flour perfect for artisan breads</p>
+                        <div class="product-footer">
+                            <span class="price">$15.99</span>
+                            <button class="btn btn-small">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Pastry Flour">
+                        <span class="product-badge badge-new">New</span>
+                        <div class="product-overlay">
+                            <button class="btn-icon">
+                                <i class="fas fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-header">
+                            <h3>Pastry Flour</h3>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <span>4.7</span>
+                            </div>
+                        </div>
+                        <p>Fine-milled flour ideal for delicate pastries</p>
+                        <div class="product-footer">
+                            <span class="price">$10.99</span>
+                            <button class="btn btn-small">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1621377430748-40d6f62d4bb5?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Ancient Grain Mix">
+                        <span class="product-badge badge-specialty">Specialty</span>
+                        <div class="product-overlay">
+                            <button class="btn-icon">
+                                <i class="fas fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-header">
+                            <h3>Ancient Grain Mix</h3>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <span>4.9</span>
+                            </div>
+                        </div>
+                        <p>Blend of spelt, einkorn, and emmer</p>
+                        <div class="product-footer">
+                            <span class="price">$18.99</span>
+                            <button class="btn btn-small">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1586444248902-2f64eddc13df?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Gluten-Free Blend">
+                        <span class="product-badge badge-glutenfree">Gluten-Free</span>
+                        <div class="product-overlay">
+                            <button class="btn-icon">
+                                <i class="fas fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-header">
+                            <h3>Gluten-Free Blend</h3>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <span>4.6</span>
+                            </div>
+                        </div>
+                        <p>Rice, almond, and tapioca flour blend</p>
+                        <div class="product-footer">
+                            <span class="price">$16.99</span>
+                            <button class="btn btn-small">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Self-Rising Flour">
+                        <span class="product-badge badge-convenient">Convenient</span>
+                        <div class="product-overlay">
+                            <button class="btn-icon">
+                                <i class="fas fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-header">
+                            <h3>Self-Rising Flour</h3>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <span>4.5</span>
+                            </div>
+                        </div>
+                        <p>Pre-mixed with baking powder and salt</p>
+                        <div class="product-footer">
+                            <span class="price">$11.99</span>
+                            <button class="btn btn-small">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center">
+                <button class="btn btn-dark">View All Products</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">
+                    <i class="fas fa-seedling"></i>
+                    <span>Our Story</span>
+                </div>
+                <h2>Crafting Quality Since 1973</h2>
+                <p>What started as a small family mill has grown into a trusted source for premium flour, maintaining our commitment to quality and traditional milling methods.</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-image" data-aos="fade-right">
+                    <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Traditional flour milling process">
+                    <div class="floating-badge">
+                        <i class="fas fa-award"></i>
+                        <p>Award Winning Quality</p>
+                    </div>
+                </div>
+                
+                <div class="about-text" data-aos="fade-left">
+                    <h3>Traditional Methods, Modern Standards</h3>
+                    <p>We combine time-honored stone-grinding techniques with modern quality control to produce flour that meets the highest standards while preserving the nutritional integrity and natural flavors of the grain.</p>
+                    
+                    <div class="process-list">
+                        <h4>Our Process:</h4>
+                        <div class="process-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Carefully select premium grains</span>
+                        </div>
+                        <div class="process-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Stone-grind at optimal temperature</span>
+                        </div>
+                        <div class="process-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Test for quality and consistency</span>
+                        </div>
+                        <div class="process-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Package in eco-friendly materials</span>
+                        </div>
+                        <div class="process-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Deliver fresh to your doorstep</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card" data-aos="fade-up">
+                    <div class="feature-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Ground Fresh Daily</h3>
+                    <p>Our flour is stone-ground fresh every morning to ensure maximum nutritional value and flavor.</p>
+                </div>
+                
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3>Premium Quality</h3>
+                    <p>We source only the finest grains from local organic farms and trusted suppliers.</p>
+                </div>
+                
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Made with Love</h3>
+                    <p>Every batch is carefully crafted with attention to detail and passion for baking.</p>
+                </div>
+                
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Family Tradition</h3>
+                    <p>Three generations of flour milling expertise passed down through our family.</p>
+                </div>
+            </div>
+            
+            <div class="stats-grid">
+                <div class="stat-item" data-aos="zoom-in">
+                    <div class="stat-number">50+</div>
+                    <p>Years of Experience</p>
+                </div>
+                <div class="stat-item" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="stat-number">10,000+</div>
+                    <p>Happy Customers</p>
+                </div>
+                <div class="stat-item" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="stat-number">15</div>
+                    <p>Flour Varieties</p>
+                </div>
+                <div class="stat-item" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="stat-number">100%</div>
+                    <p>Organic Options</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get in Touch</h2>
+                <p>Have questions about our flour or want to place a custom order? We'd love to hear from you!</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-form" data-aos="fade-right">
+                    <h3>Send us a Message</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Tell us about your flour needs or ask us any questions..." required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+                
+                <div class="contact-info" data-aos="fade-left">
+                    <h3>Contact Information</h3>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h4>Visit Our Mill</h4>
+                            <p>123 Flour Mill Road, Countryside, ST 12345</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h4>Call Us</h4>
+                            <p>(555) 123-4567</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4>Email Us</h4>
+                            <p>hello@flourandmore.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div>
+                            <h4>Business Hours</h4>
+                            <p>Mon-Sat: 8AM-6PM | Sun: 10AM-4PM</p>
+                        </div>
+                    </div>
+                    
+                    <div class="map-placeholder">
+                        <div class="map-content">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>Interactive Map Coming Soon</p>
+                        </div>
+                        <div class="map-pin"></div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <h4>Follow Us</h4>
+                        <div class="social-icons">
+                            <a href="#" class="social-icon facebook">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="social-icon instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#" class="social-icon twitter">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-brand">
+                        <i class="fas fa-seedling footer-icon"></i>
+                        <span>Flour & More</span>
+                    </div>
+                    <p>Crafting premium quality flour with traditional methods and modern standards since 1973. Your trusted partner for all baking needs.</p>
+                    <div class="made-with-love">
+                        <span>Made with</span>
+                        <i class="fas fa-heart"></i>
+                        <span>for bakers everywhere</span>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Products</h3>
+                    <ul>
+                        <li><a href="#">Whole Wheat Flour</a></li>
+                        <li><a href="#">Bread Flour</a></li>
+                        <li><a href="#">Pastry Flour</a></li>
+                        <li><a href="#">Gluten-Free Options</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Our Story</a></li>
+                        <li><a href="#">Quality Promise</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Shipping Info</a></li>
+                        <li><a href="#">Returns</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="newsletter">
+                <div class="newsletter-content">
+                    <div>
+                        <h3>Stay Updated</h3>
+                        <p>Get the latest news about new products and special offers.</p>
+                    </div>
+                    <div class="newsletter-form">
+                        <input type="email" placeholder="Enter your email">
+                        <button class="btn btn-primary">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Flour & More. All rights reserved. | Privacy Policy | Terms of Service</p>
+                <button class="scroll-top" id="scrollTop">
+                    <i class="fas fa-arrow-up"></i>
+                </button>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
